@@ -1,0 +1,271 @@
+Dancer,judge,Dance,Score
+101,A-UK,Waltz,6
+101,B-JP,Waltz,4
+101,C-SG,Waltz,4
+101,D-TPE,Waltz,5
+101,E-MY,Waltz,5
+101,F-TH,Waltz,6
+101,G-HK,Waltz,4
+101,H-CN,Waltz,6
+101,I-KR,Waltz,5
+102,A-UK,Waltz,4
+102,B-JP,Waltz,5
+102,C-SG,Waltz,5
+102,D-TPE,Waltz,4
+102,E-MY,Waltz,4
+102,F-TH,Waltz,4
+102,G-HK,Waltz,2
+102,H-CN,Waltz,4
+102,I-KR,Waltz,4
+107,A-UK,Waltz,3
+107,B-JP,Waltz,2
+107,C-SG,Waltz,3
+107,D-TPE,Waltz,3
+107,E-MY,Waltz,3
+107,F-TH,Waltz,1
+107,G-HK,Waltz,5
+107,H-CN,Waltz,3
+107,I-KR,Waltz,2
+121,A-UK,Waltz,5
+121,B-JP,Waltz,6
+121,C-SG,Waltz,6
+121,D-TPE,Waltz,6
+121,E-MY,Waltz,6
+121,F-TH,Waltz,5
+121,G-HK,Waltz,6
+121,H-CN,Waltz,5
+121,I-KR,Waltz,6
+124,A-UK,Waltz,2
+124,B-JP,Waltz,3
+124,C-SG,Waltz,2
+124,D-TPE,Waltz,2
+124,E-MY,Waltz,1
+124,F-TH,Waltz,3
+124,G-HK,Waltz,3
+124,H-CN,Waltz,2
+124,I-KR,Waltz,3
+125,A-UK,Waltz,1
+125,B-JP,Waltz,1
+125,C-SG,Waltz,1
+125,D-TPE,Waltz,1
+125,E-MY,Waltz,2
+125,F-TH,Waltz,2
+125,G-HK,Waltz,1
+125,H-CN,Waltz,1
+125,I-KR,Waltz,1
+101,A-UK,Tango,6
+101,B-JP,Tango,4
+101,C-SG,Tango,5
+101,D-TPE,Tango,5
+101,E-MY,Tango,5
+101,F-TH,Tango,6
+101,G-HK,Tango,5
+101,H-CN,Tango,6
+101,I-KR,Tango,5
+102,A-UK,Tango,4
+102,B-JP,Tango,5
+102,C-SG,Tango,4
+102,D-TPE,Tango,4
+102,E-MY,Tango,4
+102,F-TH,Tango,4
+102,G-HK,Tango,4
+102,H-CN,Tango,5
+102,I-KR,Tango,4
+107,A-UK,Tango,3
+107,B-JP,Tango,2
+107,C-SG,Tango,2
+107,D-TPE,Tango,3
+107,E-MY,Tango,3
+107,F-TH,Tango,2
+107,G-HK,Tango,2
+107,H-CN,Tango,2
+107,I-KR,Tango,1
+121,A-UK,Tango,5
+121,B-JP,Tango,6
+121,C-SG,Tango,6
+121,D-TPE,Tango,6
+121,E-MY,Tango,6
+121,F-TH,Tango,5
+121,G-HK,Tango,6
+121,H-CN,Tango,3
+121,I-KR,Tango,6
+124,A-UK,Tango,1
+124,B-JP,Tango,3
+124,C-SG,Tango,3
+124,D-TPE,Tango,2
+124,E-MY,Tango,2
+124,F-TH,Tango,3
+124,G-HK,Tango,3
+124,H-CN,Tango,4
+124,I-KR,Tango,3
+125,A-UK,Tango,2
+125,B-JP,Tango,1
+125,C-SG,Tango,1
+125,D-TPE,Tango,1
+125,E-MY,Tango,1
+125,F-TH,Tango,1
+125,G-HK,Tango,1
+125,H-CN,Tango,1
+125,I-KR,Tango,2
+101,A-UK,Viennese Waltz,6
+101,B-JP,Viennese Waltz,4
+101,C-SG,Viennese Waltz,4
+101,D-TPE,Viennese Waltz,5
+101,E-MY,Viennese Waltz,5
+101,F-TH,Viennese Waltz,6
+101,G-HK,Viennese Waltz,5
+101,H-CN,Viennese Waltz,6
+101,I-KR,Viennese Waltz,5
+102,A-UK,Viennese Waltz,4
+102,B-JP,Viennese Waltz,5
+102,C-SG,Viennese Waltz,5
+102,D-TPE,Viennese Waltz,4
+102,E-MY,Viennese Waltz,4
+102,F-TH,Viennese Waltz,4
+102,G-HK,Viennese Waltz,4
+102,H-CN,Viennese Waltz,5
+102,I-KR,Viennese Waltz,4
+107,A-UK,Viennese Waltz,1
+107,B-JP,Viennese Waltz,3
+107,C-SG,Viennese Waltz,3
+107,D-TPE,Viennese Waltz,3
+107,E-MY,Viennese Waltz,2
+107,F-TH,Viennese Waltz,2
+107,G-HK,Viennese Waltz,1
+107,H-CN,Viennese Waltz,2
+107,I-KR,Viennese Waltz,2
+121,A-UK,Viennese Waltz,5
+121,B-JP,Viennese Waltz,6
+121,C-SG,Viennese Waltz,6
+121,D-TPE,Viennese Waltz,6
+121,E-MY,Viennese Waltz,6
+121,F-TH,Viennese Waltz,5
+121,G-HK,Viennese Waltz,6
+121,H-CN,Viennese Waltz,3
+121,I-KR,Viennese Waltz,6
+124,A-UK,Viennese Waltz,3
+124,B-JP,Viennese Waltz,1
+124,C-SG,Viennese Waltz,1
+124,D-TPE,Viennese Waltz,2
+124,E-MY,Viennese Waltz,3
+124,F-TH,Viennese Waltz,3
+124,G-HK,Viennese Waltz,3
+124,H-CN,Viennese Waltz,4
+124,I-KR,Viennese Waltz,3
+125,A-UK,Viennese Waltz,2
+125,B-JP,Viennese Waltz,2
+125,C-SG,Viennese Waltz,2
+125,D-TPE,Viennese Waltz,1
+125,E-MY,Viennese Waltz,1
+125,F-TH,Viennese Waltz,1
+125,G-HK,Viennese Waltz,2
+125,H-CN,Viennese Waltz,1
+125,I-KR,Viennese Waltz,1
+101,A-UK,Slow Foxtrot,6
+101,B-JP,Slow Foxtrot,4
+101,C-SG,Slow Foxtrot,5
+101,D-TPE,Slow Foxtrot,5
+101,E-MY,Slow Foxtrot,5
+101,F-TH,Slow Foxtrot,6
+101,G-HK,Slow Foxtrot,4
+101,H-CN,Slow Foxtrot,6
+101,I-KR,Slow Foxtrot,5
+102,A-UK,Slow Foxtrot,3
+102,B-JP,Slow Foxtrot,5
+102,C-SG,Slow Foxtrot,4
+102,D-TPE,Slow Foxtrot,4
+102,E-MY,Slow Foxtrot,4
+102,F-TH,Slow Foxtrot,5
+102,G-HK,Slow Foxtrot,5
+102,H-CN,Slow Foxtrot,5
+102,I-KR,Slow Foxtrot,4
+107,A-UK,Slow Foxtrot,2
+107,B-JP,Slow Foxtrot,3
+107,C-SG,Slow Foxtrot,2
+107,D-TPE,Slow Foxtrot,3
+107,E-MY,Slow Foxtrot,3
+107,F-TH,Slow Foxtrot,2
+107,G-HK,Slow Foxtrot,3
+107,H-CN,Slow Foxtrot,4
+107,I-KR,Slow Foxtrot,1
+121,A-UK,Slow Foxtrot,5
+121,B-JP,Slow Foxtrot,6
+121,C-SG,Slow Foxtrot,6
+121,D-TPE,Slow Foxtrot,6
+121,E-MY,Slow Foxtrot,6
+121,F-TH,Slow Foxtrot,4
+121,G-HK,Slow Foxtrot,6
+121,H-CN,Slow Foxtrot,2
+121,I-KR,Slow Foxtrot,6
+124,A-UK,Slow Foxtrot,4
+124,B-JP,Slow Foxtrot,2
+124,C-SG,Slow Foxtrot,3
+124,D-TPE,Slow Foxtrot,2
+124,E-MY,Slow Foxtrot,2
+124,F-TH,Slow Foxtrot,3
+124,G-HK,Slow Foxtrot,2
+124,H-CN,Slow Foxtrot,3
+124,I-KR,Slow Foxtrot,3
+125,A-UK,Slow Foxtrot,1
+125,B-JP,Slow Foxtrot,1
+125,C-SG,Slow Foxtrot,1
+125,D-TPE,Slow Foxtrot,1
+125,E-MY,Slow Foxtrot,1
+125,F-TH,Slow Foxtrot,1
+125,G-HK,Slow Foxtrot,1
+125,H-CN,Slow Foxtrot,1
+125,I-KR,Slow Foxtrot,2
+101,A-UK,Quick Step,6
+101,B-JP,Quick Step,6
+101,C-SG,Quick Step,6
+101,D-TPE,Quick Step,5
+101,E-MY,Quick Step,6
+101,F-TH,Quick Step,6
+101,G-HK,Quick Step,5
+101,H-CN,Quick Step,6
+101,I-KR,Quick Step,6
+102,A-UK,Quick Step,4
+102,B-JP,Quick Step,4
+102,C-SG,Quick Step,4
+102,D-TPE,Quick Step,4
+102,E-MY,Quick Step,4
+102,F-TH,Quick Step,4
+102,G-HK,Quick Step,4
+102,H-CN,Quick Step,5
+102,I-KR,Quick Step,4
+107,A-UK,Quick Step,3
+107,B-JP,Quick Step,3
+107,C-SG,Quick Step,2
+107,D-TPE,Quick Step,3
+107,E-MY,Quick Step,2
+107,F-TH,Quick Step,3
+107,G-HK,Quick Step,2
+107,H-CN,Quick Step,3
+107,I-KR,Quick Step,2
+121,A-UK,Quick Step,5
+121,B-JP,Quick Step,5
+121,C-SG,Quick Step,5
+121,D-TPE,Quick Step,6
+121,E-MY,Quick Step,5
+121,F-TH,Quick Step,5
+121,G-HK,Quick Step,6
+121,H-CN,Quick Step,2
+121,I-KR,Quick Step,5
+124,A-UK,Quick Step,2
+124,B-JP,Quick Step,2
+124,C-SG,Quick Step,3
+124,D-TPE,Quick Step,2
+124,E-MY,Quick Step,3
+124,F-TH,Quick Step,2
+124,G-HK,Quick Step,3
+124,H-CN,Quick Step,4
+124,I-KR,Quick Step,3
+125,A-UK,Quick Step,1
+125,B-JP,Quick Step,1
+125,C-SG,Quick Step,1
+125,D-TPE,Quick Step,1
+125,E-MY,Quick Step,1
+125,F-TH,Quick Step,1
+125,G-HK,Quick Step,1
+125,H-CN,Quick Step,1
+125,I-KR,Quick Step,1
