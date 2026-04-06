@@ -1,0 +1,125 @@
+; This file is EXAM15.TXT
+Title  = "Pairs Skating: Winter Olympics, SLC 2002"
+Item   = Judge
+Person = Pair
+NI     = 9       ; the judges
+Item1  = 14      ; the leading blank of the first rating 
+Xwide  = 3       ; Observations are 3 CHARACTERS WIDE for convenience
+NAME1  = 1       ; start of person identification
+NAMELENGTH = 13  ; 13 characters identifiers
+
+; CODES NEXT LINE HAS ALL OBSERVED RATING SCORES
+CODES= " 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44+
+       + 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60"
+
+STEPKEEP=YES     ; maintain missing intermediate scores in the hierarchy
+
+@order = 1-2  ; pair order number at finish of competition in person label columns 1-2
+@program = 11 ; program in person label column 11: Short or Free
+@skil = 13   ; skill in person label column 13: Technical or Artistic
+PSUBTOT = @order
+DIF = @order  ; judge "DIF" across skating pairs
+tfile=*
+30   ; produce Table 30 for judge-by-pairs "DIF"
+28   ; produce Table 28 for skater-pair summary statistics
+*
+&END
+1 Rus ;Mrs. Marina SANAIA : RUSSIA
+2 Chn ;Mr. Jiasheng YANG : CHINA
+3 USA ;Mrs. Lucy BRENNAN : USA
+4 Fra ;Miss Marie Reine LE GOUGNE : FRANCE
+5 Pol ;Mrs. Anna SIEROCKA : POLAND
+6 Can ;Mr. Benoit LAVOIE : CANADA
+7 Ukr ;Mr. Vladislav PETUKHOV : UKRAINE
+8 Ger ;Mrs. Sissy KRICK : GERMANY
+9 Jap ;Mr. Hideo SUGITA : JAPAN
+
+; Description of Person Identifiers
+; Cols.  Description
+; 1-2  Order immediately after competition
+; 4-5  Skaters' initials
+; 7-9  Nationality
+; 11   Program: S=Short  F=Free
+; 13   Skill: T=Technical Merit, A=Artistic Impression
+END LABELS
+ 1 BS-Rus S T 58 58 57 58 58 58 58 58 57 ;  1 BEREZHNAYA Elena / SIKHARULIDZE Anton : RUS
+ 1 BS-Rus S A 58 58 58 58 59 58 58 58 58 ;  2 BEREZHNAYA Elena / SIKHARULIDZE Anton : RUS
+ 1 BS-Rus F T 58 58 57 58 57 57 58 58 57 ;  3 BEREZHNAYA Elena / SIKHARULIDZE Anton : RUS
+ 1 BS-Rus F A 59 59 59 59 59 58 59 58 59 ;  4 BEREZHNAYA Elena / SIKHARULIDZE Anton : RUS
+ 2 SP-Can S T 57 57 56 57 58 58 57 58 56 ;  5 SALE Jamie / PELLETIER David : CAN
+ 2 SP-Can S A 58 59 58 58 58 59 58 59 58 ;  6 SALE Jamie / PELLETIER David : CAN
+ 2 SP-Can F T 58 59 58 58 58 59 58 59 58 ;  7 SALE Jamie / PELLETIER David : CAN
+ 2 SP-Can F A 58 58 59 58 58 59 58 59 59 ;  8 SALE Jamie / PELLETIER David : CAN
+ 3 SZ-Chn S T 57 58 56 57 57 57 56 57 56 ;  9 SHEN Xue / ZHAO Hongbo : CHN
+ 3 SZ-Chn S A 57 57 57 57 56 56 57 56 55 ; 10 SHEN Xue / ZHAO Hongbo : CHN
+ 3 SZ-Chn F T 57 57 58 58 57 57 57 57 57 ; 11 SHEN Xue / ZHAO Hongbo : CHN
+ 3 SZ-Chn F A 57 58 58 57 57 57 58 57 57 ; 12 SHEN Xue / ZHAO Hongbo : CHN
+ 4 TM-Rus S T 56 56 54 56 56 56 56 54 54 ; 13 TOTMIANINA Tatiana / MARININ Maxim : RUS
+ 4 TM-Rus S A 56 57 55 56 56 54 56 55 55 ; 14 TOTMIANINA Tatiana / MARININ Maxim : RUS
+ 4 TM-Rus F T 58 56 56 57 56 55 55 55 56 ; 15 TOTMIANINA Tatiana / MARININ Maxim : RUS
+ 4 TM-Rus F A 56 56 56 56 56 54 57 55 57 ; 16 TOTMIANINA Tatiana / MARININ Maxim : RUS
+ 5 IZ-USA S T 55 54 53 55 55 55 55 55 55 ; 17 INA Kyoko / ZIMMERMAN John : USA
+ 5 IZ-USA S A 57 56 56 56 56 56 57 56 55 ; 18 INA Kyoko / ZIMMERMAN John : USA
+ 5 IZ-USA F T 55 56 57 56 54 55 56 56 55 ; 19 INA Kyoko / ZIMMERMAN John : USA
+ 5 IZ-USA F A 57 57 58 56 56 57 56 57 57 ; 20 INA Kyoko / ZIMMERMAN John : USA
+ 6 PT-Rus S T 55 55 54 56 55 55 55 54 55 ; 21 PETROVA Maria / TIKHONOV Alexei : RUS
+ 6 PT-Rus S A 56 55 54 57 55 54 56 54 56 ; 22 PETROVA Maria / TIKHONOV Alexei : RUS
+ 6 PT-Rus F T 57 55 55 55 54 56 55 55 55 ; 23 PETROVA Maria / TIKHONOV Alexei : RUS
+ 6 PT-Rus F A 56 55 54 55 55 54 56 54 56 ; 24 PETROVA Maria / TIKHONOV Alexei : RUS
+ 7 ZS-Pol S T 50 50 49 50 48 48 48 47 49 ; 25 ZAGORSKA Dorota / SIUDEK Mariusz : POL
+ 7 ZS-Pol S A 54 54 53 55 54 54 55 52 54 ; 26 ZAGORSKA Dorota / SIUDEK Mariusz : POL
+ 7 ZS-Pol F T 54 56 55 54 54 54 55 54 56 ; 27 ZAGORSKA Dorota / SIUDEK Mariusz : POL
+ 7 ZS-Pol F A 55 55 55 55 54 55 55 53 56 ; 28 ZAGORSKA Dorota / SIUDEK Mariusz : POL
+ 8 BD-Cze S T 51 52 49 52 53 50 49 52 50 ; 29 BERANKOVA Katerina / DLABOLA Otto : CZE
+ 8 BD-Cze S A 54 53 51 53 54 51 49 54 51 ; 30 BERANKOVA Katerina / DLABOLA Otto : CZE
+ 8 BD-Cze F T 52 54 52 53 52 53 52 53 53 ; 31 BERANKOVA Katerina / DLABOLA Otto : CZE
+ 8 BD-Cze F A 54 55 53 54 54 54 54 53 55 ; 32 BERANKOVA Katerina / DLABOLA Otto : CZE
+ 9 PT-Chn S T 51 50 48 50 48 48 50 50 49 ; 33 PANG Qing / TONG Jian : CHN
+ 9 PT-Chn S A 53 53 53 53 50 51 51 53 51 ; 34 PANG Qing / TONG Jian : CHN
+ 9 PT-Chn F T 54 55 53 54 52 53 53 54 52 ; 35 PANG Qing / TONG Jian : CHN
+ 9 PT-Chn F A 53 54 52 54 52 51 53 52 52 ; 36 PANG Qing / TONG Jian : CHN
+10 LF-Can S T 47 49 46 46 45 44 45 44 46 ; 37 LARIVIERE Jacinthe / FAUSTINO Lenny : CAN
+10 LF-Can S A 50 53 50 51 50 50 49 47 51 ; 38 LARIVIERE Jacinthe / FAUSTINO Lenny : CAN
+10 LF-Can F T 51 53 48 52 52 52 51 50 50 ; 39 LARIVIERE Jacinthe / FAUSTINO Lenny : CAN
+10 LF-Can F A 53 53 50 53 53 53 52 50 52 ; 40 LARIVIERE Jacinthe / FAUSTINO Lenny : CAN
+11 ZZ-Chn S T 52 53 53 52 53 50 52 53 52 ; 41 ZHANG Dan / ZHANG Hao : CHN
+11 ZZ-Chn S A 50 51 50 50 53 48 48 52 50 ; 42 ZHANG Dan / ZHANG Hao : CHN
+11 ZZ-Chn F T 52 52 51 51 51 52 51 51 52 ; 43 ZHANG Dan / ZHANG Hao : CHN
+11 ZZ-Chn F A 51 49 47 49 50 49 49 49 50 ; 44 ZHANG Dan / ZHANG Hao : CHN
+12 LA-Can S T 46 46 44 47 43 45 42 48 45 ; 45 LANGLOIS Anabelle / ARCHETTO Patrice : CAN
+12 LA-Can S A 51 51 51 53 48 51 48 52 51 ; 46 LANGLOIS Anabelle / ARCHETTO Patrice : CAN
+12 LA-Can F T 50 50 51 52 51 51 50 52 51 ; 47 LANGLOIS Anabelle / ARCHETTO Patrice : CAN
+12 LA-Can F A 52 52 52 52 52 52 51 52 52 ; 48 LANGLOIS Anabelle / ARCHETTO Patrice : CAN
+13 SD-USA S T 46 45 46 45 44 45 44 45 46 ; 49 SCOTT Tiffany / DULEBOHN Philip : USA
+13 SD-USA S A 53 52 52 52 51 52 50 50 53 ; 50 SCOTT Tiffany / DULEBOHN Philip : USA
+13 SD-USA F T 49 49 49 49 47 48 46 48 50 ; 51 SCOTT Tiffany / DULEBOHN Philip : USA
+13 SD-USA F A 52 52 53 50 50 51 49 51 53 ; 52 SCOTT Tiffany / DULEBOHN Philip : USA
+14 KJ-Ger S T 49 49 49 44 46 47 44 45 49 ; 53 KAUTZ Mariana / JESCHKE Norman : GER
+14 KJ-Ger S A 49 51 49 47 47 48 44 47 50 ; 54 KAUTZ Mariana / JESCHKE Norman : GER
+14 KJ-Ger F T 46 49 46 46 47 45 48 48 49 ; 55 KAUTZ Mariana / JESCHKE Norman : GER
+14 KJ-Ger F A 47 51 46 47 47 45 49 46 50 ; 56 KAUTZ Mariana / JESCHKE Norman : GER
+15 SM-Ukr S T 49 45 46 47 47 44 43 42 44 ; 57 SAVCHENKO Aliona / MOROZOV Stanislav : UKR
+15 SM-Ukr S A 51 50 48 50 51 50 46 47 48 ; 58 SAVCHENKO Aliona / MOROZOV Stanislav : UKR
+15 SM-Ukr F T 48 47 47 47 48 47 48 49 48 ; 59 SAVCHENKO Aliona / MOROZOV Stanislav : UKR
+15 SM-Ukr F A 50 47 46 48 50 46 48 50 48 ; 60 SAVCHENKO Aliona / MOROZOV Stanislav : UKR
+16 CP-Ukr S T 48 46 48 45 47 46 45 44 46 ; 61 CHUVAEVA Tatiana / PALAMARCHUK Dmitri : UKR
+16 CP-Ukr S A 49 50 50 48 49 49 48 48 49 ; 62 CHUVAEVA Tatiana / PALAMARCHUK Dmitri : UKR
+16 CP-Ukr F T 45 45 46 46 46 46 46 46 46 ; 63 CHUVAEVA Tatiana / PALAMARCHUK Dmitri : UKR
+16 CP-Ukr F A 44 46 44 46 46 44 47 45 47 ; 64 CHUVAEVA Tatiana / PALAMARCHUK Dmitri : UKR
+17 BB-Svk S T 39 41 39 41 40 37 39 38 36 ; 65 BESTANDIGOVA Olga / BESTANDIG Jozef : SVK
+17 BB-Svk S A 44 45 44 45 45 41 44 43 41 ; 66 BESTANDIGOVA Olga / BESTANDIG Jozef : SVK
+17 BB-Svk F T 40 43 43 43 41 42 40 41 43 ; 67 BESTANDIGOVA Olga / BESTANDIG Jozef : SVK
+17 BB-Svk F A 42 43 43 44 42 41 43 41 42 ; 68 BESTANDIGOVA Olga / BESTANDIG Jozef : SVK
+18 PS-Uzb S T 38 38 40 39 34 38 34 31 29 ; 69 PONOMAREVA Natalia / SVIRIDOV Evgeni : UZB
+18 PS-Uzb S A 43 43 45 45 43 43 41 40 39 ; 70 PONOMAREVA Natalia / SVIRIDOV Evgeni : UZB
+18 PS-Uzb F T 41 43 41 42 41 43 40 42 40 ; 71 PONOMAREVA Natalia / SVIRIDOV Evgeni : UZB
+18 PS-Uzb F A 42 42 40 43 41 43 41 42 39 ; 72 PONOMAREVA Natalia / SVIRIDOV Evgeni : UZB
+19 CP-Ita S T 36 37 36 40 35 38 36 34 36 ; 73 COBISI Michela / de PRA Ruben : ITA
+19 CP-Ita S A 42 40 42 42 42 42 42 41 42 ; 74 COBISI Michela / de PRA Ruben : ITA
+19 CP-Ita F T 41 40 40 41 39 38 41 40 41 ; 75 COBISI Michela / de PRA Ruben : ITA
+19 CP-Ita F A 41 41 39 42 40 37 42 39 41 ; 76 COBISI Michela / de PRA Ruben : ITA
+20 KZ-Arm S T 35 34 35 32 35 34 33 32 32 ; 77 KRASILTSEVA Maria / ZNACHKOV Artem : ARM
+20 KZ-Arm S A 40 39 40 38 40 38 40 38 37 ; 78 KRASILTSEVA Maria / ZNACHKOV Artem : ARM
+20 KZ-Arm F T 39 39 38 38 39 37 39 39 39 ; 79 KRASILTSEVA Maria / ZNACHKOV Artem : ARM
+20 KZ-Arm F A 38 38 38 38 38 36 40 37 39 ; 80 KRASILTSEVA Maria / ZNACHKOV Artem : ARM
+
