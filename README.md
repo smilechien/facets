@@ -109,7 +109,7 @@ JPN233,3,B,2
 ```
 
 ---
-
+or with the wide-form data at https://github.com/smilechien/facets/blob/main/2002judgeSH.csv
 ## Quick start
 
 ```bash
